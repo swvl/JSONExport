@@ -70,7 +70,7 @@
             "returnStatement": "\n\t\treturn params\n",
             "body": "",
             "comment": "\t// MARK: - Marshaling\n",
-            "bodyStart": "{\n"
+            "bodyStart": "{\n\t\tvar params = [String: Any]()\n\n"
             }
     ],
     "dataTypes": {
