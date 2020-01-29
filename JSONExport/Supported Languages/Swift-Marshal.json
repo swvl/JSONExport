@@ -63,7 +63,7 @@
     "utilityMethods": [
         {
             "forEachProperty": "\t\tparams[\"<!JsonKeyName!>\"] = <!VarName!>\n",
-            "bodyEnd": "\t}\n",
+            "bodyEnd": "\t}",
             "signature": "\tpublic func marshaled() -> [String: Any] ",
             "forEachCustomTypeProperty": "\t\tparams[\"<!JsonKeyName!>\"] = <!VarName!>\n",
             "forEachArrayOfCustomTypeProperty": "\t\tparams[\"<!JsonKeyName!>\"] = <!VarName!>\n",
